@@ -9,7 +9,8 @@ module.exports = {
         'midgreen':'#61BDC2',
         'ash': '#333333',
         'litash':'#8E999B',
-        'darkblue': '#25346A'
+        'darkblue': '#25346A',
+        'littergreen':'#57D9E2'
       },
       fontFamily:{
         'open': ['Open sans', 'san serif']

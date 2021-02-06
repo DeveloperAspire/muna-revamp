@@ -9,15 +9,15 @@
 <link rel="stylesheet" href="src/style.css">
 </head>
 <body class="font-sans bg-Green">
-    <header>
+    <header class="relative">
 
         <div class="flex justify-between items-center">
         <div class="text-left">
         <img class="w-22 h-20" src="images/muna.png" alt="">
         </div>
 
-        <div class=" text-white text-2xl p-4 md:hidden">
-            <i class="fas fa-bars"></i>
+        <div  class=" text-white text-2xl p-4 md:hidden">
+            <i id="icon" class="fas fa-bars"></i>
         </div>
 
         <div class="hidden md:block text-white md:flex md:justify-between md:items-center md:mx-auto">
@@ -32,9 +32,21 @@
         
     </header>
 
+    <!-- MOBILE MENU -->
+
+    <div id="mobile-menu" class=" hidden text-white z-20 text-right px-8 py-4 absolute bg-Green left-44 top-5 shadow ">
+        <a id="cancel" class=" block mb-8" href="#"> <i class="fas fa-times fa-2x"></i></a>
+        <a class="block  text-lg" href="#">Products</a>
+        <a class="block  text-lg" href="#">Investments Club</a>
+        <a  class="block text-lg"  href="#">About Us</a>
+        <a  class="block text-lg" href="#">FAQs</a>
+        <a  class="block  text-lg" href="#">Blog</a>
+    </div>
+
+
     <!-- HERO SECTION -->
 
-    <section class="text-white px-4 mt-10 md:flex md:justify-between md:px-32 ">
+    <section class="text-white px-4 mt-10 md:flex md:justify-between md:px-32 z-10">
 
         <div class="md:text-left md:mt-10 md:mr-10">
 

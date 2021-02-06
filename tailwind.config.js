@@ -8,7 +8,8 @@ module.exports = {
         'litgreen': '#E6F5F6',
         'midgreen':'#61BDC2',
         'ash': '#333333',
-        'litash':'#8E999B'
+        'litash':'#8E999B',
+        'darkblue': '#25346A'
       },
       fontFamily:{
         'open': ['Open sans', 'san serif']

@@ -5,7 +5,10 @@ module.exports = {
     extend: {
       colors:{
         'Green': '#3B99A0',
-        'litgreen': '#E6F5F6'
+        'litgreen': '#E6F5F6',
+        'midgreen':'#61BDC2',
+        'ash': '#333333',
+        'litash':'#8E999B'
       },
       fontFamily:{
         'open': ['Open sans', 'san serif']
